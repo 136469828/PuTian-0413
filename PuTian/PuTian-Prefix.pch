@@ -1,0 +1,26 @@
+//
+//  PuTian-Prefix.pch
+//  PuTian
+//
+//  Created by guofeng on 15/9/1.
+//  Copyright (c) 2015年 guofeng. All rights reserved.
+//
+
+#import <Availability.h>
+
+#ifndef __IPHONE_4_0
+#warning "This project uses features only available in iOS SDK 4.0 and later."
+#endif
+
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "Global.h"
+#import "EnumList.h"
+#import "Common.h"
+#import "MBProgressHUDManager.h"
+#import "Tool.h"
+#import "NSObject+Addition.h"
+#import "UIView+FrameAdjust.h"
+#import "UINavigationBar+Addition.h"
+#endif
